@@ -69,4 +69,15 @@ def exercise7():
         time.sleep(5)
         finch.stopAll()
     
-exercise7()
+def exercise8():
+    bird.setBeak(100,0,0)
+    finch.setMove('F',15,50)
+    finch.setTurn('R',90,80)
+    bird.setTail(1,100,64,0)
+    bird.setTail(2,100,100,0)
+    finch.setMove('F',15,50)
+    finch.setTurn('R',90,80)
+    bird.setTail(3,0,100,0)
+    bird.setTail(4,0,0,100)
+    sleep(5)
+    bird.stopAll()
